@@ -1,3 +1,7 @@
+@import url("intro.css");
+@import url("footer.css");
+@import url("background.css");
+
 body {
   margin: 0;
   padding: 0;
@@ -6,75 +10,52 @@ body {
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-}
-
-
-footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-
-  color: #fff;
-  width: 100%;
-}
-
-footer p {
-  padding: 10px;
+  border: solid red;
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 150px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  margin: 10px;
-  font-size: 20px;
+  width: 150px; /* Take the full width of the container */
+  height: 150px; /* Set the height of the container */
+  margin: 16px;
+  background-color: white;
+  background-image: center;
+  border: solid red;
+  box-shadow: 0 10px 10px black;
 }
 
-.container [data-image-url] {
-  /* background-image: url(var(--image-url)); */
-  background-size: cover;
+.img{
+    background: cover;
+    background: center;
+    width: 150px;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 10px;
-  margin-right: 10px;
-}
 
-.social-icons a {
-  color: #fff;
-  font-size: 30px;
-  margin-left: 10px;
-}
 
-.social-icons a:hover {
-  color: red;
-}
-/* Styles for the hidden containers */
 /* Styles for the hidden containers */
 .hidden-container {
-    display: none; /* Hide the containers initially */
-    flex-direction: column; /* Align containers vertically */
-    align-items: flex-start; /* Align containers to the left */
+  display: none; /* Hide the containers initially */
+  flex-direction: column; /* Align containers vertically */
+  align-items: flex-start; /* Align containers to the left */
+  width: 100%; /* Take the full width of the container */
+  margin: 10px;
+  border: solid red;
 }
 
-.container {
-    width: 100%; /* Take the full width of the container */
-    /* Your existing styles for the containers */
+.works-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 30px;
+  margin-bottom: 6px;
 }
+
 .intro-container h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 .intro-container h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .hidden-container {
-    display: none;
+  display: none;
 }
