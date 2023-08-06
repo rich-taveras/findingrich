@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>finding.rich</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="intro.js">
+    <link rel="stylesheet" href="intro.css">
 </head>
 <body>
     <video class="video-background" autoplay loop muted playsinline>
@@ -13,12 +17,30 @@
         <!-- You can add additional sources for different video formats if needed -->
     </video>
 
-    <h1>Richard Taveras</h1>
-    <h2>I'm a Full Stack Developer</h2>
-    <div class="container">HTML/CSS</div>
-    <div class="container">JavaScript</div>
-    <div class="container">Python</div>
-    <div class="container">Bootstraps</div>
-    <div class="container">jQuery</div>
+    <div class="intro-container">
+        <h1>Richard Taveras</h1>
+        <h2>I'm a Full Stack Developer</h2>
+    </div>
+
+    <div class="hidden-container">
+        <div class="container" data-image-url="https://www.studio29webdesign.com/wp-content/uploads/2019/07/html-css-logos.png">
+            <span>HTML/CSS</span>
+        </div>
+        <div class="container">JavaScript/jQuery</div>
+        <div class="container">Python</div>
+        <div class="container">Bootstraps</div>
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://twitter.com/taverasr" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/rich-taveras" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/richard-taveras-988842174/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2023 finding.rich. All rights reserved.</p>
+    </footer>
+
+    <script src="intro.js"></script>
 </body>
 </html>

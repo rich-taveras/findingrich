@@ -1,0 +1,13 @@
+/* Center the intro-container */
+.intro-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+h1, h2 {
+  text-align: center;
+  color: black;
+  margin: 15px 0;
+}
