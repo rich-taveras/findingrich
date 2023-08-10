@@ -15,4 +15,15 @@
     justify-content: center;
 }
 
+.filters {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .filter {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: large;
+  }
+
   
