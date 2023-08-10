@@ -1,0 +1,42 @@
+@import url("./background.css");
+@import url("./about.css");
+@import url("./intro.css");
+@import url("./projects.css");
+
+@import url("./contact.css");
+@import url("./footer.css");
+
+section .title{
+color: greenyellow;
+}
+.filters {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.filter {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: large;
+}
+.container-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: #f2f2f2;
+    
+    
+}
+/* .box {
+
+
+    
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+} */
